@@ -1,0 +1,19 @@
+##########################################
+## ptBR: Use para configurar intervalos ##
+## enUS: Use to set up intervals        ##
+##########################################
+
+# ptBR: Atenção: os intervalos devem ser colocados em minutos e não em segundos.
+# enUS: Caution: intervals should be placed in minutes and not in seconds.
+
+# ptBR: Intervalo para enviar heróis ao trabalho
+# enUS: Interval to send heroes to work
+send_heroes_go_work: 10
+
+# ptBR: Intervalo para atualizar posição dos heróis
+# enUS: Interval to update hero position
+refresh_heroes_positions: 5
+
+# ptBR: Intervalo para verificar se está conectado
+# enUS: Interval to check if you are connected
+check_for_login_wallet: 1

@@ -1,0 +1,6 @@
+mss
+pyyaml
+pyautogui
+numpy
+opencv-python
+colorama

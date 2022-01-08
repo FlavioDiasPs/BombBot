@@ -41,10 +41,10 @@ def banner():
 def await_time(sleeping):
     ''' Wait for a certain amount of seconds to be passed while displaying a regressive counter of seconds to the user '''
     sleeping = sleeping
-    # while sleeping >= 1:
-    #     sleeping -= 1
-    #     print(f'\033[K [*] BombBot entrará em ação daqui {sleeping} segundo(s)..', end='\r')
-    #     time.sleep(1)
+    while sleeping >= 1:
+        sleeping -= 1
+        print(f'\033[K [*] BombBot entrará em ação daqui {sleeping} segundo(s)..', end='\r')
+        time.sleep(1)
 
 def printscreen():
     ''' Capture screen '''
